@@ -1,0 +1,39 @@
+2026-04-13 14:31:07,494 - __main__ - INFO - ============================================================
+2026-04-13 14:31:07,494 - __main__ - INFO - LUNG CANCER DETECTION - TRAINING PIPELINE
+2026-04-13 14:31:07,494 - __main__ - INFO - ============================================================
+2026-04-13 14:31:07,494 - __main__ - INFO - Data directory: data
+2026-04-13 14:31:07,494 - __main__ - INFO - Checkpoint directory: models/
+2026-04-13 14:31:07,494 - __main__ - INFO - Model: efficientnet_b0
+2026-04-13 14:31:07,494 - __main__ - INFO - Batch size: 8
+2026-04-13 14:31:07,495 - __main__ - INFO - Learning rate: 0.0001
+2026-04-13 14:31:07,495 - __main__ - INFO - Epochs: 10
+2026-04-13 14:31:07,495 - __main__ - INFO - Device: cpu
+2026-04-13 14:31:07,495 - __main__ - INFO - 
+Creating dataset...
+2026-04-13 14:31:07,496 - __main__ - INFO - Dataset loaded from data
+2026-04-13 14:31:07,496 - __main__ - INFO - Total images: 100
+2026-04-13 14:31:07,496 - __main__ - INFO - Classes: ['stage_1', 'stage_2', 'stage_3', 'stage_4']
+2026-04-13 14:31:07,496 - __main__ - INFO - Class to idx: {'stage_1': 0, 'stage_2': 1, 'stage_3': 2, 'stage_4': 3}
+2026-04-13 14:31:07,496 - __main__ - INFO - Creating data loaders...
+2026-04-13 14:31:07,497 - __main__ - INFO - Train samples: 80
+2026-04-13 14:31:07,497 - __main__ - INFO - Val samples: 10
+2026-04-13 14:31:07,497 - __main__ - INFO - Test samples: 10
+2026-04-13 14:31:07,497 - __main__ - INFO - 
+Creating model...
+2026-04-13 14:31:12,437 - __main__ - INFO - Total parameters: 6,076,776
+2026-04-13 14:31:12,437 - __main__ - INFO - Trainable parameters: 6,076,776
+2026-04-13 14:31:12,438 - __main__ - INFO - 
+Initializing trainer...
+2026-04-13 14:31:12,440 - __main__ - INFO - 
+Starting training loop...
+2026-04-13 14:31:12,441 - __main__ - INFO - ============================================================
+2026-04-13 14:33:33,924 - __main__ - INFO - 
+============================================================
+2026-04-13 14:33:33,924 - __main__ - INFO - TRAINING SUMMARY
+2026-04-13 14:33:33,924 - __main__ - INFO - ============================================================
+2026-04-13 14:33:33,924 - __main__ - INFO - Best train loss: 0.2678
+2026-04-13 14:33:33,924 - __main__ - INFO - Best val loss: 0.0216
+2026-04-13 14:33:33,924 - __main__ - INFO - Best train accuracy: 0.9500
+2026-04-13 14:33:33,924 - __main__ - INFO - Best val accuracy: 1.0000
+2026-04-13 14:33:33,925 - __main__ - INFO - Checkpoints saved to: models/
+2026-04-13 14:33:33,925 - __main__ - INFO - ============================================================
